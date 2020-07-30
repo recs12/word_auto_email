@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/sbBu9V/Qvp3gP3kfWb4+Cg0eJRDtH6IHhJPSMwwaKSjwsWuAVfHMcidBhSYOf/X75pukomul/t1VE/br8XKxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\covid(F#)\\covid.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\recs\\.nuget\\packages\\fsharp.core\\4.7.1\\fsharp.core.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
