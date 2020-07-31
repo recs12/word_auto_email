@@ -3,7 +3,7 @@
 *)
 
 open System
-open System.IO // File.Move(source, destination)
+open System.IO
 
 
 // Project steps:
@@ -28,12 +28,12 @@ let docQuestionnaireTarget =
 
 
 let moveDocDesktop source target =
-    File.Move(string source, string target)
+    File.Copy(string source, string target)
 
 
 
 let main() =
     moveDocDesktop docQuestionnaireSource docQuestionnaireTarget
-    Console.WriteLine("Done")
+    Console.WriteLine("covid questionary moved to desktop.")
 
 main()
