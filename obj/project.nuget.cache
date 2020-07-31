@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/sbBu9V/Qvp3gP3kfWb4+Cg0eJRDtH6IHhJPSMwwaKSjwsWuAVfHMcidBhSYOf/X75pukomul/t1VE/br8XKxA==",
+  "dgSpecHash": "WjUkcwQgOymIO3iWbcCU8E3rvi9RwPaNPnb63sod3Bi7JsqHaR3Ga9HfshQJOSmEeKpLyrfKBGLxmAZIbjc0cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\covid(F#)\\covid.fsproj",
+  "projectFilePath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\auto_email_covid\\covid.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\recs\\.nuget\\packages\\fsharp.core\\4.7.1\\fsharp.core.4.7.1.nupkg.sha512"
   ],

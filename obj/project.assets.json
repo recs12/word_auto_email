@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\covid(F#)\\covid.fsproj",
+      "projectUniqueName": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\auto_email_covid\\covid.fsproj",
       "projectName": "covid",
-      "projectPath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\covid(F#)\\covid.fsproj",
+      "projectPath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\auto_email_covid\\covid.fsproj",
       "packagesPath": "C:\\Users\\recs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\covid(F#)\\obj\\",
+      "outputPath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\auto_email_covid\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\recs\\AppData\\Roaming\\NuGet\\NuGet.Config",
