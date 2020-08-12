@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "FSharp.Core/4.7.1": {
+      "FSharp.Core/4.7.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/FSharp.Core.dll": {}
@@ -51,19 +51,44 @@
             "locale": "zh-Hant"
           }
         }
+      },
+      "NetOffice.Core/1.7.4.11": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NetOffice.dll": {},
+          "lib/net45/OfficeApi.dll": {},
+          "lib/net45/VBIDEApi.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NetOffice.dll": {},
+          "lib/net45/OfficeApi.dll": {},
+          "lib/net45/VBIDEApi.dll": {}
+        }
+      },
+      "NetOffice.Outlook/1.7.4.11": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.4.11"
+        },
+        "compile": {
+          "lib/net45/OutlookApi.dll": {}
+        },
+        "runtime": {
+          "lib/net45/OutlookApi.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "FSharp.Core/4.7.1": {
-      "sha512": "cQ4Dn5mFIWnJF8MmL49k2V6L8mtInDrXopskNFbpC4lsPdspTn7WzUQLylB4HU4tpi76ManXMVCAvtlYowTfHQ==",
+    "FSharp.Core/4.7.2": {
+      "sha512": "w3XFVTnyZUbC8e2QT6a85ern6y7eQPPk+MYemz1FP0iBfgZcembL+wmo5cIZ1kxB8jfoXC8Q9KVkOMsGpkBKbA==",
       "type": "package",
-      "path": "fsharp.core/4.7.1",
+      "path": "fsharp.core/4.7.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "fsharp.core.4.7.1.nupkg.sha512",
+        "fsharp.core.4.7.2.nupkg.sha512",
         "fsharp.core.nuspec",
         "lib/net45/FSharp.Core.dll",
         "lib/net45/FSharp.Core.optdata",
@@ -100,11 +125,78 @@
         "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
         "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
       ]
+    },
+    "NetOffice.Core/1.7.4.11": {
+      "sha512": "voWeYFBjBET6y0kugZ7LUCJHBtT/ox/JFEscRdyqDXyooVdY246d19wVMr1ftXXD+30k5ZiClIGZbpOxHLFp0A==",
+      "type": "package",
+      "path": "netoffice.core/1.7.4.11",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/NetOffice.dll",
+        "lib/net20/NetOffice.xml",
+        "lib/net20/OfficeApi.dll",
+        "lib/net20/OfficeApi.xml",
+        "lib/net20/VBIDEApi.dll",
+        "lib/net20/VBIDEApi.xml",
+        "lib/net30/NetOffice.dll",
+        "lib/net30/NetOffice.xml",
+        "lib/net30/OfficeApi.dll",
+        "lib/net30/OfficeApi.xml",
+        "lib/net30/VBIDEApi.dll",
+        "lib/net30/VBIDEApi.xml",
+        "lib/net35/NetOffice.dll",
+        "lib/net35/NetOffice.xml",
+        "lib/net35/OfficeApi.dll",
+        "lib/net35/OfficeApi.xml",
+        "lib/net35/VBIDEApi.dll",
+        "lib/net35/VBIDEApi.xml",
+        "lib/net40/NetOffice.dll",
+        "lib/net40/NetOffice.xml",
+        "lib/net40/OfficeApi.dll",
+        "lib/net40/OfficeApi.xml",
+        "lib/net40/VBIDEApi.dll",
+        "lib/net40/VBIDEApi.xml",
+        "lib/net45/NetOffice.dll",
+        "lib/net45/NetOffice.xml",
+        "lib/net45/OfficeApi.dll",
+        "lib/net45/OfficeApi.xml",
+        "lib/net45/VBIDEApi.dll",
+        "lib/net45/VBIDEApi.xml",
+        "netoffice.core.1.7.4.11.nupkg.sha512",
+        "netoffice.core.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NetOffice.Outlook/1.7.4.11": {
+      "sha512": "TWmNmRaSrUIeXJDTbwUzU5H8MDk6GAW+Yp9UZg0d232Z9PBiHGqPTdltaPGmIwKZJOOnlorlA35JJoaSMOTQyg==",
+      "type": "package",
+      "path": "netoffice.outlook/1.7.4.11",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/OutlookApi.dll",
+        "lib/net20/OutlookApi.xml",
+        "lib/net30/OutlookApi.dll",
+        "lib/net30/OutlookApi.xml",
+        "lib/net35/OutlookApi.dll",
+        "lib/net35/OutlookApi.xml",
+        "lib/net40/OutlookApi.dll",
+        "lib/net40/OutlookApi.xml",
+        "lib/net45/OutlookApi.dll",
+        "lib/net45/OutlookApi.xml",
+        "netoffice.outlook.1.7.4.11.nupkg.sha512",
+        "netoffice.outlook.nuspec",
+        "tools/install.ps1"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "FSharp.Core >= 4.7.1"
+      "FSharp.Core >= 4.7.2",
+      "NetOffice.Outlook >= 1.7.4.11"
     ]
   },
   "packageFolders": {
@@ -141,8 +233,12 @@
         "dependencies": {
           "FSharp.Core": {
             "target": "Package",
-            "version": "[4.7.1, )",
+            "version": "[4.7.2, )",
             "generatePathProperty": true
+          },
+          "NetOffice.Outlook": {
+            "target": "Package",
+            "version": "[1.7.4.11, )"
           }
         },
         "imports": [
@@ -160,8 +256,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Core 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Outlook 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Outlook",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
