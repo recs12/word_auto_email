@@ -16,14 +16,12 @@ open OutlookApi
 // Write a message
 
 // Source
-let docQuestionnaireSource =
-    @"C:\Users\recs\macros\COVID-19_Questionnaire (xxxx-xx-xx).docx"
-
-// Write the date of today
+let docQuestionnaireSource:string =
+    @"C:\Users\recs\macros\RECS_COVID_Questionnaire(xxxx-xx-xx).docx"
 
 // Target
 let docQuestionnaireTarget (date:string) : string =
-    @"C:\Users\recs\Desktop\COVID-19_Questionnaire("+date+").docx"
+    @"C:\Users\recs\Desktop\RECS_COVID_Questionnaire("+date+").docx"
 
 let getDate:string =
     System.DateTime.Today.ToString("yyyy-MM-dd")
@@ -44,10 +42,10 @@ let createEmail =
     0
 
 let main() =
-    let  target = docQuestionnaireTarget getDate
+    let target = docQuestionnaireTarget getDate
     printfn "- source: %s" docQuestionnaireSource
     printfn "- target: %s" target
     copyDocDesktop docQuestionnaireSource target
-    Console.WriteLine("covid questionary copied to Desktop.")
+    Console.WriteLine("covid form added to your Desktop.")
 
-main()
+main ()

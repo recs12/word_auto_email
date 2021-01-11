@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qGZ4q5PI6Em+nsLBHL53qrfcK/UE79OvlCzuRcBbSEUC/BMgKh3FGmLpvvT9Zfvt1mT/fQkHXy8NNY05lr+4Ow==",
+  "dgSpecHash": "W11IOu7k0Lt1AlDOq792xz9afDWx9+L4kOQFB66xsjX/4SJKMg+hk2zylLDKSBDENRDxNeSVuBwD/7OJt6+3xQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\auto_email_covid\\covid.fsproj",
+  "projectFilePath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\word_auto_email\\covid.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\recs\\.nuget\\packages\\fsharp.core\\4.7.2\\fsharp.core.4.7.2.nupkg.sha512",
+    "C:\\Users\\recs\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
     "C:\\Users\\recs\\.nuget\\packages\\netoffice.core\\1.7.4.11\\netoffice.core.1.7.4.11.nupkg.sha512",
     "C:\\Users\\recs\\.nuget\\packages\\netoffice.outlook\\1.7.4.11\\netoffice.outlook.1.7.4.11.nupkg.sha512"
   ],

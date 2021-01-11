@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\auto_email_covid\\covid.fsproj": {}
+    "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\word_auto_email\\covid.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\auto_email_covid\\covid.fsproj": {
+    "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\word_auto_email\\covid.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\auto_email_covid\\covid.fsproj",
+        "projectUniqueName": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\word_auto_email\\covid.fsproj",
         "projectName": "covid",
-        "projectPath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\auto_email_covid\\covid.fsproj",
+        "projectPath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\word_auto_email\\covid.fsproj",
         "packagesPath": "C:\\Users\\recs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\auto_email_covid\\obj\\",
+        "outputPath": "C:\\Users\\recs\\Documents\\PT_Documents\\scripts\\word_auto_email\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\recs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,21 +26,24 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FSharp.Core": {
               "target": "Package",
-              "version": "[4.7.2, )",
+              "version": "[5.0.0, )",
               "generatePathProperty": true
             },
             "NetOffice.Outlook": {
               "target": "Package",
-              "version": "[1.7.4.11, )"
+              "version": "[1.7.4.11, )",
+              "generatePathProperty": true
             }
           },
           "imports": [
@@ -58,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

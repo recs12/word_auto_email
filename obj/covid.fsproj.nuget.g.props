@@ -7,7 +7,7 @@
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\recs\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.7.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
@@ -18,6 +18,6 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNetOffice_Core Condition=" '$(PkgNetOffice_Core)' == '' ">C:\Users\recs\.nuget\packages\netoffice.core\1.7.4.11</PkgNetOffice_Core>
     <PkgNetOffice_Outlook Condition=" '$(PkgNetOffice_Outlook)' == '' ">C:\Users\recs\.nuget\packages\netoffice.outlook\1.7.4.11</PkgNetOffice_Outlook>
-    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\recs\.nuget\packages\fsharp.core\4.7.2</PkgFSharp_Core>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\recs\.nuget\packages\fsharp.core\5.0.0</PkgFSharp_Core>
   </PropertyGroup>
 </Project>
